@@ -35,7 +35,7 @@
     <usedDebug>true</usedDebug>
     	<debugprobe>swd</debugprobe>
     <optimization></optimization>
-    <icfloc>1</icfloc>
+    <icfloc>0</icfloc>
     <Adefines>
         <define></define>
     </Adefines>   
@@ -90,6 +90,9 @@
 							<name>../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c</name>
 						</file>
 						<file>
+							<name>../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_usart.c</name>
+						</file>
+						<file>
 							<name>../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c</name>
 						</file>
 						<file>
@@ -141,6 +144,10 @@
 
                                 <file>
                                  <name>..\Src\i2c.c</name>
+                                </file>
+
+                                <file>
+                                 <name>..\Src\usart.c</name>
                                 </file>
 
                                 <file>

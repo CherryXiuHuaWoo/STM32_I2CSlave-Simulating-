@@ -1,0 +1,30 @@
+--cpu Cortex-M0
+"stm32_simulating_iic_slave\startup_stm32f030x8.o"
+"stm32_simulating_iic_slave\system_stm32f0xx.o"
+"stm32_simulating_iic_slave\stm32f0xx_hal_msp.o"
+"stm32_simulating_iic_slave\gpio.o"
+"stm32_simulating_iic_slave\i2c.o"
+"stm32_simulating_iic_slave\main.o"
+"stm32_simulating_iic_slave\stm32f0xx_it.o"
+"stm32_simulating_iic_slave\simulating_iic.o"
+"stm32_simulating_iic_slave\usart.o"
+"stm32_simulating_iic_slave\stm32f0xx_hal_dma.o"
+"stm32_simulating_iic_slave\stm32f0xx_hal_rcc.o"
+"stm32_simulating_iic_slave\stm32f0xx_hal_pwr_ex.o"
+"stm32_simulating_iic_slave\stm32f0xx_hal_tim.o"
+"stm32_simulating_iic_slave\stm32f0xx_hal_tim_ex.o"
+"stm32_simulating_iic_slave\stm32f0xx_hal_cortex.o"
+"stm32_simulating_iic_slave\stm32f0xx_hal_flash_ex.o"
+"stm32_simulating_iic_slave\stm32f0xx_hal_rcc_ex.o"
+"stm32_simulating_iic_slave\stm32f0xx_hal.o"
+"stm32_simulating_iic_slave\stm32f0xx_hal_gpio.o"
+"stm32_simulating_iic_slave\stm32f0xx_hal_i2c.o"
+"stm32_simulating_iic_slave\stm32f0xx_hal_flash.o"
+"stm32_simulating_iic_slave\stm32f0xx_hal_i2c_ex.o"
+"stm32_simulating_iic_slave\stm32f0xx_hal_pwr.o"
+"stm32_simulating_iic_slave\stm32f0xx_hal_usart.o"
+--library_type=microlib --strict --scatter "STM32_Simulating_IIC_Slave\STM32_Simulating_IIC_Slave.sct"
+
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "STM32_Simulating_IIC_Slave.map" -o STM32_Simulating_IIC_Slave\STM32_Simulating_IIC_Slave.axf
