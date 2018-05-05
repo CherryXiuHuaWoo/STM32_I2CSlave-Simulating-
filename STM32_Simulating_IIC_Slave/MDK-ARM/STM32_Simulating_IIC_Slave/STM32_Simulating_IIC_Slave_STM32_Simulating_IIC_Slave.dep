@@ -1,5 +1,5 @@
 Dependencies for Project 'STM32_Simulating_IIC_Slave', Target 'STM32_Simulating_IIC_Slave': (DO NOT MODIFY !)
-F (startup_stm32f030x8.s)(0x5AEAD65A)(--cpu Cortex-M0 -g --apcs=interwork --pd "__MICROLIB SETA 1"-I C:\Users\80426\Documents\GitHub\C\STM32-Simulating-IIC-Slave\STM32_Simulating_IIC_Slave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include--pd "__UVISION_VERSION SETA 514" --pd "_RTE_ SETA 1" --pd "STM32F030 SETA 1"--list startup_stm32f030x8.lst --xref -o stm32_simulating_iic_slave\startup_stm32f030x8.o --depend stm32_simulating_iic_slave\startup_stm32f030x8.d)
+F (startup_stm32f030x8.s)(0x5AED7777)(--cpu Cortex-M0 -g --apcs=interwork --pd "__MICROLIB SETA 1"-I C:\Users\80426\Documents\GitHub\C\STM32-Simulating-IIC-Slave\STM32_Simulating_IIC_Slave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include--pd "__UVISION_VERSION SETA 514" --pd "_RTE_ SETA 1" --pd "STM32F030 SETA 1"--list startup_stm32f030x8.lst --xref -o stm32_simulating_iic_slave\startup_stm32f030x8.o --depend stm32_simulating_iic_slave\startup_stm32f030x8.d)
 F (../Src/system_stm32f0xx.c)(0x5A2F3159)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I..\User --C99-I C:\Users\80426\Documents\GitHub\C\STM32-Simulating-IIC-Slave\STM32_Simulating_IIC_Slave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F030 -DUSE_HAL_DRIVER -DSTM32F030x8-o stm32_simulating_iic_slave\system_stm32f0xx.o --omf_browse stm32_simulating_iic_slave\system_stm32f0xx.crf --depend stm32_simulating_iic_slave\system_stm32f0xx.d)
 I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x5A2F3159)
 I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f030x8.h)(0x5A2F3158)
@@ -10,8 +10,8 @@ I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5A2F3186)
 I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5A2F3186)
 I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x5A2F3159)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x5A2F3187)
-I (../Inc/stm32f0xx_hal_conf.h)(0x5AEAD655)
-I (../Inc/main.h)(0x5AEAD655)
+I (../Inc/stm32f0xx_hal_conf.h)(0x5AED7772)
+I (../Inc/main.h)(0x5AED7772)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x5A2F3187)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x5A2F3187)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5475F300)
@@ -29,10 +29,10 @@ I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x5A2F3187)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x5A2F3187)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_usart.h)(0x5A2F3187)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_usart_ex.h)(0x5A2F3187)
-F (../Src/stm32f0xx_hal_msp.c)(0x5AEAD655)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I..\User --C99-I C:\Users\80426\Documents\GitHub\C\STM32-Simulating-IIC-Slave\STM32_Simulating_IIC_Slave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F030 -DUSE_HAL_DRIVER -DSTM32F030x8-o stm32_simulating_iic_slave\stm32f0xx_hal_msp.o --omf_browse stm32_simulating_iic_slave\stm32f0xx_hal_msp.crf --depend stm32_simulating_iic_slave\stm32f0xx_hal_msp.d)
+F (../Src/stm32f0xx_hal_msp.c)(0x5AED7772)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I..\User --C99-I C:\Users\80426\Documents\GitHub\C\STM32-Simulating-IIC-Slave\STM32_Simulating_IIC_Slave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F030 -DUSE_HAL_DRIVER -DSTM32F030x8-o stm32_simulating_iic_slave\stm32f0xx_hal_msp.o --omf_browse stm32_simulating_iic_slave\stm32f0xx_hal_msp.crf --depend stm32_simulating_iic_slave\stm32f0xx_hal_msp.d)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x5A2F3187)
-I (../Inc/stm32f0xx_hal_conf.h)(0x5AEAD655)
-I (../Inc/main.h)(0x5AEAD655)
+I (../Inc/stm32f0xx_hal_conf.h)(0x5AED7772)
+I (../Inc/main.h)(0x5AED7772)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x5A2F3187)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x5A2F3187)
 I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x5A2F3159)
@@ -58,11 +58,11 @@ I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x5A2F3187)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x5A2F3187)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_usart.h)(0x5A2F3187)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_usart_ex.h)(0x5A2F3187)
-F (../Src/gpio.c)(0x5AEAD653)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I..\User --C99-I C:\Users\80426\Documents\GitHub\C\STM32-Simulating-IIC-Slave\STM32_Simulating_IIC_Slave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F030 -DUSE_HAL_DRIVER -DSTM32F030x8-o stm32_simulating_iic_slave\gpio.o --omf_browse stm32_simulating_iic_slave\gpio.crf --depend stm32_simulating_iic_slave\gpio.d)
-I (../Inc/gpio.h)(0x5AEAD653)
+F (../Src/gpio.c)(0x5AED7770)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I..\User --C99-I C:\Users\80426\Documents\GitHub\C\STM32-Simulating-IIC-Slave\STM32_Simulating_IIC_Slave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F030 -DUSE_HAL_DRIVER -DSTM32F030x8-o stm32_simulating_iic_slave\gpio.o --omf_browse stm32_simulating_iic_slave\gpio.crf --depend stm32_simulating_iic_slave\gpio.d)
+I (../Inc/gpio.h)(0x5AED7770)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x5A2F3187)
-I (../Inc/stm32f0xx_hal_conf.h)(0x5AEAD655)
-I (../Inc/main.h)(0x5AEAD655)
+I (../Inc/stm32f0xx_hal_conf.h)(0x5AED7772)
+I (../Inc/main.h)(0x5AED7772)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x5A2F3187)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x5A2F3187)
 I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x5A2F3159)
@@ -88,11 +88,11 @@ I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x5A2F3187)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x5A2F3187)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_usart.h)(0x5A2F3187)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_usart_ex.h)(0x5A2F3187)
-F (../Src/i2c.c)(0x5AEAD654)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I..\User --C99-I C:\Users\80426\Documents\GitHub\C\STM32-Simulating-IIC-Slave\STM32_Simulating_IIC_Slave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F030 -DUSE_HAL_DRIVER -DSTM32F030x8-o stm32_simulating_iic_slave\i2c.o --omf_browse stm32_simulating_iic_slave\i2c.crf --depend stm32_simulating_iic_slave\i2c.d)
-I (../Inc/i2c.h)(0x5AEAD654)
+F (../Src/i2c.c)(0x5AED7771)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I..\User --C99-I C:\Users\80426\Documents\GitHub\C\STM32-Simulating-IIC-Slave\STM32_Simulating_IIC_Slave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F030 -DUSE_HAL_DRIVER -DSTM32F030x8-o stm32_simulating_iic_slave\i2c.o --omf_browse stm32_simulating_iic_slave\i2c.crf --depend stm32_simulating_iic_slave\i2c.d)
+I (../Inc/i2c.h)(0x5AED7771)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x5A2F3187)
-I (../Inc/stm32f0xx_hal_conf.h)(0x5AEAD655)
-I (../Inc/main.h)(0x5AEAD655)
+I (../Inc/stm32f0xx_hal_conf.h)(0x5AED7772)
+I (../Inc/main.h)(0x5AED7772)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x5A2F3187)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x5A2F3187)
 I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x5A2F3159)
@@ -118,11 +118,11 @@ I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x5A2F3187)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x5A2F3187)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_usart.h)(0x5A2F3187)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_usart_ex.h)(0x5A2F3187)
-I (../Inc/gpio.h)(0x5AEAD653)
-F (../Src/main.c)(0x5AEAD655)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I..\User --C99-I C:\Users\80426\Documents\GitHub\C\STM32-Simulating-IIC-Slave\STM32_Simulating_IIC_Slave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F030 -DUSE_HAL_DRIVER -DSTM32F030x8-o stm32_simulating_iic_slave\main.o --omf_browse stm32_simulating_iic_slave\main.crf --depend stm32_simulating_iic_slave\main.d)
-I (../Inc/main.h)(0x5AEAD655)
+I (../Inc/gpio.h)(0x5AED7770)
+F (../Src/main.c)(0x5AED7773)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I..\User --C99-I C:\Users\80426\Documents\GitHub\C\STM32-Simulating-IIC-Slave\STM32_Simulating_IIC_Slave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F030 -DUSE_HAL_DRIVER -DSTM32F030x8-o stm32_simulating_iic_slave\main.o --omf_browse stm32_simulating_iic_slave\main.crf --depend stm32_simulating_iic_slave\main.d)
+I (../Inc/main.h)(0x5AED7772)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x5A2F3187)
-I (../Inc/stm32f0xx_hal_conf.h)(0x5AEAD655)
+I (../Inc/stm32f0xx_hal_conf.h)(0x5AED7772)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x5A2F3187)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x5A2F3187)
 I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x5A2F3159)
@@ -148,14 +148,14 @@ I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x5A2F3187)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x5A2F3187)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_usart.h)(0x5A2F3187)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_usart_ex.h)(0x5A2F3187)
-I (../Inc/i2c.h)(0x5AEAD654)
-I (../Inc/usart.h)(0x5AEAD654)
-I (../Inc/gpio.h)(0x5AEAD653)
+I (../Inc/i2c.h)(0x5AED7771)
+I (../Inc/usart.h)(0x5AED7771)
+I (../Inc/gpio.h)(0x5AED7770)
 I (..\User\Simulating_IIC.h)(0x5AE957F7)
-F (../Src/stm32f0xx_it.c)(0x5AEAD654)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I..\User --C99-I C:\Users\80426\Documents\GitHub\C\STM32-Simulating-IIC-Slave\STM32_Simulating_IIC_Slave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F030 -DUSE_HAL_DRIVER -DSTM32F030x8-o stm32_simulating_iic_slave\stm32f0xx_it.o --omf_browse stm32_simulating_iic_slave\stm32f0xx_it.crf --depend stm32_simulating_iic_slave\stm32f0xx_it.d)
+F (../Src/stm32f0xx_it.c)(0x5AED7771)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I..\User --C99-I C:\Users\80426\Documents\GitHub\C\STM32-Simulating-IIC-Slave\STM32_Simulating_IIC_Slave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F030 -DUSE_HAL_DRIVER -DSTM32F030x8-o stm32_simulating_iic_slave\stm32f0xx_it.o --omf_browse stm32_simulating_iic_slave\stm32f0xx_it.crf --depend stm32_simulating_iic_slave\stm32f0xx_it.d)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x5A2F3187)
-I (../Inc/stm32f0xx_hal_conf.h)(0x5AEAD655)
-I (../Inc/main.h)(0x5AEAD655)
+I (../Inc/stm32f0xx_hal_conf.h)(0x5AED7772)
+I (../Inc/main.h)(0x5AED7772)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x5A2F3187)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x5A2F3187)
 I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x5A2F3159)
@@ -181,9 +181,9 @@ I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x5A2F3187)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x5A2F3187)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_usart.h)(0x5A2F3187)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_usart_ex.h)(0x5A2F3187)
-I (../Inc/stm32f0xx_it.h)(0x5AEAD655)
+I (../Inc/stm32f0xx_it.h)(0x5AED7772)
 I (..\User\Simulating_IIC.h)(0x5AE957F7)
-F (..\User\Simulating_IIC.c)(0x5AEADE1A)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I..\User --C99-I C:\Users\80426\Documents\GitHub\C\STM32-Simulating-IIC-Slave\STM32_Simulating_IIC_Slave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F030 -DUSE_HAL_DRIVER -DSTM32F030x8-o stm32_simulating_iic_slave\simulating_iic.o --omf_browse stm32_simulating_iic_slave\simulating_iic.crf --depend stm32_simulating_iic_slave\simulating_iic.d)
+F (..\User\Simulating_IIC.c)(0x5AED869A)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I..\User --C99-I C:\Users\80426\Documents\GitHub\C\STM32-Simulating-IIC-Slave\STM32_Simulating_IIC_Slave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F030 -DUSE_HAL_DRIVER -DSTM32F030x8-o stm32_simulating_iic_slave\simulating_iic.o --omf_browse stm32_simulating_iic_slave\simulating_iic.crf --depend stm32_simulating_iic_slave\simulating_iic.d)
 I (..\User\Simulating_IIC.h)(0x5AE957F7)
 I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f030x8.h)(0x5A2F3158)
 I (../Drivers/CMSIS/Include/core_cm0.h)(0x5A2F3186)
@@ -193,8 +193,8 @@ I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5A2F3186)
 I (../Drivers/CMSIS/Include/core_cmFunc.h)(0x5A2F3186)
 I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h)(0x5A2F3159)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x5A2F3187)
-I (../Inc/stm32f0xx_hal_conf.h)(0x5AEAD655)
-I (../Inc/main.h)(0x5AEAD655)
+I (../Inc/stm32f0xx_hal_conf.h)(0x5AED7772)
+I (../Inc/main.h)(0x5AED7772)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x5A2F3187)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x5A2F3187)
 I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x5A2F3159)
@@ -213,12 +213,12 @@ I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x5A2F3187)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x5A2F3187)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_usart.h)(0x5A2F3187)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_usart_ex.h)(0x5A2F3187)
-I (../Inc/usart.h)(0x5AEAD654)
-F (../Src/usart.c)(0x5AEAD654)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I..\User --C99-I C:\Users\80426\Documents\GitHub\C\STM32-Simulating-IIC-Slave\STM32_Simulating_IIC_Slave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F030 -DUSE_HAL_DRIVER -DSTM32F030x8-o stm32_simulating_iic_slave\usart.o --omf_browse stm32_simulating_iic_slave\usart.crf --depend stm32_simulating_iic_slave\usart.d)
-I (../Inc/usart.h)(0x5AEAD654)
+I (../Inc/usart.h)(0x5AED7771)
+F (../Src/usart.c)(0x5AED7771)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I..\User --C99-I C:\Users\80426\Documents\GitHub\C\STM32-Simulating-IIC-Slave\STM32_Simulating_IIC_Slave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F030 -DUSE_HAL_DRIVER -DSTM32F030x8-o stm32_simulating_iic_slave\usart.o --omf_browse stm32_simulating_iic_slave\usart.crf --depend stm32_simulating_iic_slave\usart.d)
+I (../Inc/usart.h)(0x5AED7771)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x5A2F3187)
-I (../Inc/stm32f0xx_hal_conf.h)(0x5AEAD655)
-I (../Inc/main.h)(0x5AEAD655)
+I (../Inc/stm32f0xx_hal_conf.h)(0x5AED7772)
+I (../Inc/main.h)(0x5AED7772)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x5A2F3187)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x5A2F3187)
 I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x5A2F3159)
@@ -244,11 +244,11 @@ I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr.h)(0x5A2F3187)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_pwr_ex.h)(0x5A2F3187)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_usart.h)(0x5A2F3187)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_usart_ex.h)(0x5A2F3187)
-I (../Inc/gpio.h)(0x5AEAD653)
+I (../Inc/gpio.h)(0x5AED7770)
 F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_dma.c)(0x5A2F3187)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I..\User --C99-I C:\Users\80426\Documents\GitHub\C\STM32-Simulating-IIC-Slave\STM32_Simulating_IIC_Slave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F030 -DUSE_HAL_DRIVER -DSTM32F030x8-o stm32_simulating_iic_slave\stm32f0xx_hal_dma.o --omf_browse stm32_simulating_iic_slave\stm32f0xx_hal_dma.crf --depend stm32_simulating_iic_slave\stm32f0xx_hal_dma.d)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x5A2F3187)
-I (../Inc/stm32f0xx_hal_conf.h)(0x5AEAD655)
-I (../Inc/main.h)(0x5AEAD655)
+I (../Inc/stm32f0xx_hal_conf.h)(0x5AED7772)
+I (../Inc/main.h)(0x5AED7772)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x5A2F3187)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x5A2F3187)
 I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x5A2F3159)
@@ -276,8 +276,8 @@ I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_usart.h)(0x5A2F3187)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_usart_ex.h)(0x5A2F3187)
 F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc.c)(0x5A2F3188)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I..\User --C99-I C:\Users\80426\Documents\GitHub\C\STM32-Simulating-IIC-Slave\STM32_Simulating_IIC_Slave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F030 -DUSE_HAL_DRIVER -DSTM32F030x8-o stm32_simulating_iic_slave\stm32f0xx_hal_rcc.o --omf_browse stm32_simulating_iic_slave\stm32f0xx_hal_rcc.crf --depend stm32_simulating_iic_slave\stm32f0xx_hal_rcc.d)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x5A2F3187)
-I (../Inc/stm32f0xx_hal_conf.h)(0x5AEAD655)
-I (../Inc/main.h)(0x5AEAD655)
+I (../Inc/stm32f0xx_hal_conf.h)(0x5AED7772)
+I (../Inc/main.h)(0x5AED7772)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x5A2F3187)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x5A2F3187)
 I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x5A2F3159)
@@ -305,8 +305,8 @@ I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_usart.h)(0x5A2F3187)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_usart_ex.h)(0x5A2F3187)
 F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr_ex.c)(0x5A2F3188)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I..\User --C99-I C:\Users\80426\Documents\GitHub\C\STM32-Simulating-IIC-Slave\STM32_Simulating_IIC_Slave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F030 -DUSE_HAL_DRIVER -DSTM32F030x8-o stm32_simulating_iic_slave\stm32f0xx_hal_pwr_ex.o --omf_browse stm32_simulating_iic_slave\stm32f0xx_hal_pwr_ex.crf --depend stm32_simulating_iic_slave\stm32f0xx_hal_pwr_ex.d)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x5A2F3187)
-I (../Inc/stm32f0xx_hal_conf.h)(0x5AEAD655)
-I (../Inc/main.h)(0x5AEAD655)
+I (../Inc/stm32f0xx_hal_conf.h)(0x5AED7772)
+I (../Inc/main.h)(0x5AED7772)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x5A2F3187)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x5A2F3187)
 I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x5A2F3159)
@@ -334,8 +334,8 @@ I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_usart.h)(0x5A2F3187)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_usart_ex.h)(0x5A2F3187)
 F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim.c)(0x5A2F3188)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I..\User --C99-I C:\Users\80426\Documents\GitHub\C\STM32-Simulating-IIC-Slave\STM32_Simulating_IIC_Slave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F030 -DUSE_HAL_DRIVER -DSTM32F030x8-o stm32_simulating_iic_slave\stm32f0xx_hal_tim.o --omf_browse stm32_simulating_iic_slave\stm32f0xx_hal_tim.crf --depend stm32_simulating_iic_slave\stm32f0xx_hal_tim.d)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x5A2F3187)
-I (../Inc/stm32f0xx_hal_conf.h)(0x5AEAD655)
-I (../Inc/main.h)(0x5AEAD655)
+I (../Inc/stm32f0xx_hal_conf.h)(0x5AED7772)
+I (../Inc/main.h)(0x5AED7772)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x5A2F3187)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x5A2F3187)
 I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x5A2F3159)
@@ -363,8 +363,8 @@ I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_usart.h)(0x5A2F3187)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_usart_ex.h)(0x5A2F3187)
 F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_tim_ex.c)(0x5A2F3188)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I..\User --C99-I C:\Users\80426\Documents\GitHub\C\STM32-Simulating-IIC-Slave\STM32_Simulating_IIC_Slave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F030 -DUSE_HAL_DRIVER -DSTM32F030x8-o stm32_simulating_iic_slave\stm32f0xx_hal_tim_ex.o --omf_browse stm32_simulating_iic_slave\stm32f0xx_hal_tim_ex.crf --depend stm32_simulating_iic_slave\stm32f0xx_hal_tim_ex.d)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x5A2F3187)
-I (../Inc/stm32f0xx_hal_conf.h)(0x5AEAD655)
-I (../Inc/main.h)(0x5AEAD655)
+I (../Inc/stm32f0xx_hal_conf.h)(0x5AED7772)
+I (../Inc/main.h)(0x5AED7772)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x5A2F3187)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x5A2F3187)
 I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x5A2F3159)
@@ -392,8 +392,8 @@ I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_usart.h)(0x5A2F3187)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_usart_ex.h)(0x5A2F3187)
 F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_cortex.c)(0x5A2F3187)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I..\User --C99-I C:\Users\80426\Documents\GitHub\C\STM32-Simulating-IIC-Slave\STM32_Simulating_IIC_Slave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F030 -DUSE_HAL_DRIVER -DSTM32F030x8-o stm32_simulating_iic_slave\stm32f0xx_hal_cortex.o --omf_browse stm32_simulating_iic_slave\stm32f0xx_hal_cortex.crf --depend stm32_simulating_iic_slave\stm32f0xx_hal_cortex.d)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x5A2F3187)
-I (../Inc/stm32f0xx_hal_conf.h)(0x5AEAD655)
-I (../Inc/main.h)(0x5AEAD655)
+I (../Inc/stm32f0xx_hal_conf.h)(0x5AED7772)
+I (../Inc/main.h)(0x5AED7772)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x5A2F3187)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x5A2F3187)
 I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x5A2F3159)
@@ -421,8 +421,8 @@ I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_usart.h)(0x5A2F3187)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_usart_ex.h)(0x5A2F3187)
 F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash_ex.c)(0x5A2F3187)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I..\User --C99-I C:\Users\80426\Documents\GitHub\C\STM32-Simulating-IIC-Slave\STM32_Simulating_IIC_Slave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F030 -DUSE_HAL_DRIVER -DSTM32F030x8-o stm32_simulating_iic_slave\stm32f0xx_hal_flash_ex.o --omf_browse stm32_simulating_iic_slave\stm32f0xx_hal_flash_ex.crf --depend stm32_simulating_iic_slave\stm32f0xx_hal_flash_ex.d)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x5A2F3187)
-I (../Inc/stm32f0xx_hal_conf.h)(0x5AEAD655)
-I (../Inc/main.h)(0x5AEAD655)
+I (../Inc/stm32f0xx_hal_conf.h)(0x5AED7772)
+I (../Inc/main.h)(0x5AED7772)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x5A2F3187)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x5A2F3187)
 I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x5A2F3159)
@@ -450,8 +450,8 @@ I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_usart.h)(0x5A2F3187)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_usart_ex.h)(0x5A2F3187)
 F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_rcc_ex.c)(0x5A2F3188)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I..\User --C99-I C:\Users\80426\Documents\GitHub\C\STM32-Simulating-IIC-Slave\STM32_Simulating_IIC_Slave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F030 -DUSE_HAL_DRIVER -DSTM32F030x8-o stm32_simulating_iic_slave\stm32f0xx_hal_rcc_ex.o --omf_browse stm32_simulating_iic_slave\stm32f0xx_hal_rcc_ex.crf --depend stm32_simulating_iic_slave\stm32f0xx_hal_rcc_ex.d)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x5A2F3187)
-I (../Inc/stm32f0xx_hal_conf.h)(0x5AEAD655)
-I (../Inc/main.h)(0x5AEAD655)
+I (../Inc/stm32f0xx_hal_conf.h)(0x5AED7772)
+I (../Inc/main.h)(0x5AED7772)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x5A2F3187)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x5A2F3187)
 I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x5A2F3159)
@@ -479,8 +479,8 @@ I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_usart.h)(0x5A2F3187)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_usart_ex.h)(0x5A2F3187)
 F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal.c)(0x5A2F3187)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I..\User --C99-I C:\Users\80426\Documents\GitHub\C\STM32-Simulating-IIC-Slave\STM32_Simulating_IIC_Slave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F030 -DUSE_HAL_DRIVER -DSTM32F030x8-o stm32_simulating_iic_slave\stm32f0xx_hal.o --omf_browse stm32_simulating_iic_slave\stm32f0xx_hal.crf --depend stm32_simulating_iic_slave\stm32f0xx_hal.d)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x5A2F3187)
-I (../Inc/stm32f0xx_hal_conf.h)(0x5AEAD655)
-I (../Inc/main.h)(0x5AEAD655)
+I (../Inc/stm32f0xx_hal_conf.h)(0x5AED7772)
+I (../Inc/main.h)(0x5AED7772)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x5A2F3187)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x5A2F3187)
 I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x5A2F3159)
@@ -508,8 +508,8 @@ I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_usart.h)(0x5A2F3187)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_usart_ex.h)(0x5A2F3187)
 F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_gpio.c)(0x5A2F3187)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I..\User --C99-I C:\Users\80426\Documents\GitHub\C\STM32-Simulating-IIC-Slave\STM32_Simulating_IIC_Slave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F030 -DUSE_HAL_DRIVER -DSTM32F030x8-o stm32_simulating_iic_slave\stm32f0xx_hal_gpio.o --omf_browse stm32_simulating_iic_slave\stm32f0xx_hal_gpio.crf --depend stm32_simulating_iic_slave\stm32f0xx_hal_gpio.d)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x5A2F3187)
-I (../Inc/stm32f0xx_hal_conf.h)(0x5AEAD655)
-I (../Inc/main.h)(0x5AEAD655)
+I (../Inc/stm32f0xx_hal_conf.h)(0x5AED7772)
+I (../Inc/main.h)(0x5AED7772)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x5A2F3187)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x5A2F3187)
 I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x5A2F3159)
@@ -537,8 +537,8 @@ I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_usart.h)(0x5A2F3187)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_usart_ex.h)(0x5A2F3187)
 F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c.c)(0x5A2F3187)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I..\User --C99-I C:\Users\80426\Documents\GitHub\C\STM32-Simulating-IIC-Slave\STM32_Simulating_IIC_Slave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F030 -DUSE_HAL_DRIVER -DSTM32F030x8-o stm32_simulating_iic_slave\stm32f0xx_hal_i2c.o --omf_browse stm32_simulating_iic_slave\stm32f0xx_hal_i2c.crf --depend stm32_simulating_iic_slave\stm32f0xx_hal_i2c.d)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x5A2F3187)
-I (../Inc/stm32f0xx_hal_conf.h)(0x5AEAD655)
-I (../Inc/main.h)(0x5AEAD655)
+I (../Inc/stm32f0xx_hal_conf.h)(0x5AED7772)
+I (../Inc/main.h)(0x5AED7772)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x5A2F3187)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x5A2F3187)
 I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x5A2F3159)
@@ -566,8 +566,8 @@ I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_usart.h)(0x5A2F3187)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_usart_ex.h)(0x5A2F3187)
 F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_flash.c)(0x5A2F3187)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I..\User --C99-I C:\Users\80426\Documents\GitHub\C\STM32-Simulating-IIC-Slave\STM32_Simulating_IIC_Slave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F030 -DUSE_HAL_DRIVER -DSTM32F030x8-o stm32_simulating_iic_slave\stm32f0xx_hal_flash.o --omf_browse stm32_simulating_iic_slave\stm32f0xx_hal_flash.crf --depend stm32_simulating_iic_slave\stm32f0xx_hal_flash.d)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x5A2F3187)
-I (../Inc/stm32f0xx_hal_conf.h)(0x5AEAD655)
-I (../Inc/main.h)(0x5AEAD655)
+I (../Inc/stm32f0xx_hal_conf.h)(0x5AED7772)
+I (../Inc/main.h)(0x5AED7772)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x5A2F3187)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x5A2F3187)
 I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x5A2F3159)
@@ -595,8 +595,8 @@ I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_usart.h)(0x5A2F3187)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_usart_ex.h)(0x5A2F3187)
 F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c)(0x5A2F3187)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I..\User --C99-I C:\Users\80426\Documents\GitHub\C\STM32-Simulating-IIC-Slave\STM32_Simulating_IIC_Slave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F030 -DUSE_HAL_DRIVER -DSTM32F030x8-o stm32_simulating_iic_slave\stm32f0xx_hal_i2c_ex.o --omf_browse stm32_simulating_iic_slave\stm32f0xx_hal_i2c_ex.crf --depend stm32_simulating_iic_slave\stm32f0xx_hal_i2c_ex.d)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x5A2F3187)
-I (../Inc/stm32f0xx_hal_conf.h)(0x5AEAD655)
-I (../Inc/main.h)(0x5AEAD655)
+I (../Inc/stm32f0xx_hal_conf.h)(0x5AED7772)
+I (../Inc/main.h)(0x5AED7772)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x5A2F3187)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x5A2F3187)
 I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x5A2F3159)
@@ -624,8 +624,8 @@ I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_usart.h)(0x5A2F3187)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_usart_ex.h)(0x5A2F3187)
 F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_pwr.c)(0x5A2F3188)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I..\User --C99-I C:\Users\80426\Documents\GitHub\C\STM32-Simulating-IIC-Slave\STM32_Simulating_IIC_Slave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F030 -DUSE_HAL_DRIVER -DSTM32F030x8-o stm32_simulating_iic_slave\stm32f0xx_hal_pwr.o --omf_browse stm32_simulating_iic_slave\stm32f0xx_hal_pwr.crf --depend stm32_simulating_iic_slave\stm32f0xx_hal_pwr.d)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x5A2F3187)
-I (../Inc/stm32f0xx_hal_conf.h)(0x5AEAD655)
-I (../Inc/main.h)(0x5AEAD655)
+I (../Inc/stm32f0xx_hal_conf.h)(0x5AED7772)
+I (../Inc/main.h)(0x5AED7772)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x5A2F3187)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x5A2F3187)
 I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x5A2F3159)
@@ -653,8 +653,8 @@ I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_usart.h)(0x5A2F3187)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_usart_ex.h)(0x5A2F3187)
 F (../Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_usart.c)(0x5A2F3188)(-c --cpu Cortex-M0 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I../Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -I..\User --C99-I C:\Users\80426\Documents\GitHub\C\STM32-Simulating-IIC-Slave\STM32_Simulating_IIC_Slave\MDK-ARM\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.4.0\Device\Include-D__UVISION_VERSION="514" -D_RTE_ -DSTM32F030 -DUSE_HAL_DRIVER -DSTM32F030x8-o stm32_simulating_iic_slave\stm32f0xx_hal_usart.o --omf_browse stm32_simulating_iic_slave\stm32f0xx_hal_usart.crf --depend stm32_simulating_iic_slave\stm32f0xx_hal_usart.d)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h)(0x5A2F3187)
-I (../Inc/stm32f0xx_hal_conf.h)(0x5AEAD655)
-I (../Inc/main.h)(0x5AEAD655)
+I (../Inc/stm32f0xx_hal_conf.h)(0x5AED7772)
+I (../Inc/main.h)(0x5AED7772)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_rcc.h)(0x5A2F3187)
 I (../Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h)(0x5A2F3187)
 I (../Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f0xx.h)(0x5A2F3159)

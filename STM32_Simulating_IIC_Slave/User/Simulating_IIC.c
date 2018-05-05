@@ -12,7 +12,11 @@
 #define IIC_NoMasterAck		-1
 #define IIC_GetMasterAck	0
 
-#define IIC_SlaveAddr		0x55	
+#define IIC_SlaveAddr_R		0x55
+#define IIC_SlaveAddr_W		0x54
+
+#define IIC_SDA_OUTPUT		0
+#define IIC_SDA_EXTI		1
 
 #define FAIL				-1
 #define PASS				0
@@ -24,16 +28,39 @@ struct IIC_RxBuf
 }Slave_IICBuf;
 
 
+GPIO_InitTypeDef GPIO_InitStruct;
+
+/*
+* Funcaion:
+ */
+void IIC_SDA_TransStatus(int status)
+{
+  GPIO_InitStruct.Pin = IIC_SDA_Pin;
+  GPIO_InitStruct.Pull = GPIO_PULLUP;
+  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_HIGH;
+
+  if(status == IIC_SDA_OUTPUT)
+  {
+	  GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
+  }
+  else
+  {
+	  GPIO_InitStruct.Mode = GPIO_MODE_IT_FALLING;
+  }
+  HAL_GPIO_Init(IIC_SDA_GPIO_Port, &GPIO_InitStruct);
+}
 
 /*
  * Function: IIC delay
  * 			 A short delay for Master Clock
  */
-void IIC_delay()
+void IIC_delay(void)
 {
-	;
-	;
-	;
+	int i;
+	for(i = 0; i < 8000; i++)
+	{
+	
+	}
 }
 
 
@@ -44,16 +71,16 @@ void IIC_delay()
  void IIC_ACK()
 {
 	/*Waitting for High CLK*/
-	while((IIC_SCL_GPIO_Port->IDR & (uint32_t)IIC_SCL_Pin) == GPIO_PIN_RESET);
+//	while(HAL_GPIO_ReadPin(IIC_SCL_GPIO_Port, IIC_SCL_Pin) == GPIO_PIN_RESET);
 
 	/*SDA Reset*/
-	IIC_SDA_GPIO_Port->BRR = (uint32_t)IIC_SDA_Pin;
-
+	HAL_GPIO_WritePin(IIC_SDA_GPIO_Port, IIC_SDA_Pin, GPIO_PIN_RESET);
 	/*Waitting for Low CLK*/
-	while((IIC_SCL_GPIO_Port->IDR & (uint32_t)IIC_SCL_Pin) != GPIO_PIN_RESET);
+	IIC_delay();
+//	while(HAL_GPIO_ReadPin(IIC_SCL_GPIO_Port, IIC_SCL_Pin) == GPIO_PIN_SET);
 
 	/*SDA Set*/
-	IIC_SDA_GPIO_Port->BSRR = (uint32_t)IIC_SDA_Pin;
+	HAL_GPIO_WritePin(IIC_SDA_GPIO_Port, IIC_SDA_Pin, GPIO_PIN_SET);
 }
 
 
@@ -147,20 +174,9 @@ void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
 	/*Disables EXTI interrupt*/
 	HAL_NVIC_DisableIRQ(EXTI4_15_IRQn);
 
-	/*Checking the Start Sign*/
-	/*Start Sign: SDA = Low, SCL = High*/
-	IIC_StartFlag = 0;
-	while(HAL_GPIO_ReadPin(IIC_SCL_GPIO_Port, IIC_SCL_Pin) == GPIO_PIN_SET)
+	/*Checking the Start Sign. Start Sign: SDA = Low, SCL = High*/	
+	if(HAL_GPIO_ReadPin(IIC_SCL_GPIO_Port, IIC_SCL_Pin) == GPIO_PIN_SET)
 	{	
-		if(HAL_GPIO_ReadPin(IIC_SDA_GPIO_Port, IIC_SDA_Pin) == GPIO_PIN_RESET)
-		{
-			IIC_StartFlag = 1;
-			break;
-		}
-	}
-
-	if(IIC_StartFlag)
-	{
 		/*Waitting Start Sign end, SCL Low.*/
 		while(HAL_GPIO_ReadPin(IIC_SCL_GPIO_Port, IIC_SCL_Pin) == GPIO_PIN_SET);
 		
@@ -180,22 +196,33 @@ void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
 			while(HAL_GPIO_ReadPin(IIC_SCL_GPIO_Port, IIC_SCL_Pin) == GPIO_PIN_SET);
 		}
 		
-		IIC_ACK();	
+		/*Transfrom SDA Mode as OUTPUT*/
+		IIC_SDA_TransStatus(IIC_SDA_OUTPUT);
 		printf("Addr=0x%x\r\n",Slave_IICBuf.SlaveAddr);
+		/*Checking IIC Slave Address*/
+		if(Slave_IICBuf.SlaveAddr == IIC_SlaveAddr_R)
+		{
+			
+			IIC_ACK();		
+//			IIC_SendBytes(test, 8);
+		}
+		else if(Slave_IICBuf.SlaveAddr == IIC_SlaveAddr_W)
+		{
+			IIC_ACK();
+		}
+
+		
+		
 	}
 	else
 	{
-		printf("No Start\r\n");
+		printf("No Start Sign\r\n");
 	}
 
-	/*Checking IIC Slave Address*/
-	if(IIC_SlaveAddr == Slave_IICBuf.SlaveAddr)
-	{
-		IIC_SendBytes(test, 8);
-	}
-
-
+	/*Transfrom SDA Mode as OUTPUT*/
+	IIC_SDA_TransStatus(IIC_SDA_EXTI);
 	/*Enables EXTI interrupt*/
+	__HAL_GPIO_EXTI_CLEAR_FLAG(IIC_SDA_Pin);
 	HAL_NVIC_EnableIRQ(EXTI4_15_IRQn);
 }
  

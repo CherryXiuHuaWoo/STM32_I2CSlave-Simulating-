@@ -49,9 +49,9 @@
 
 #define IIC_SDA_Pin GPIO_PIN_9
 #define IIC_SDA_GPIO_Port GPIOA
+#define IIC_SDA_EXTI_IRQn EXTI4_15_IRQn
 #define IIC_SCL_Pin GPIO_PIN_10
 #define IIC_SCL_GPIO_Port GPIOA
-#define IIC_SCL_EXTI_IRQn EXTI4_15_IRQn
 
 /* ########################## Assert Selection ############################## */
 /**
